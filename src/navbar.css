@@ -1,0 +1,24 @@
+.app-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* Espace entre les colonnes */
+    margin: 20px;
+}
+
+.products-section {
+    flex: 3;
+    /* Section des produits prend plus d'espace */
+    padding: 10px;
+}
+
+.cart-section {
+    flex: 1;
+    /* Section du panier prend moins d'espace */
+    padding: 10px;
+    border-left: 2px solid #e0e0e0;
+    /* Séparateur visuel */
+    max-height: 80vh;
+    overflow-y: auto;
+    /* Scroll si contenu trop grand */
+}
